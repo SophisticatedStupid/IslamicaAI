@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "./components/header";
+import React from "react";  
+import Header from "./components/Header";
 import NoticeBoard from "./components/NoticeBoard";
-import ChatBox from "./components/chatbox";
+import ChatBox from "./components/Chatbox";
 import Sidebar from "./components/Sidebar";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
