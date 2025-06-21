@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
+import Header from "./components/header";
 import NoticeBoard from "./components/NoticeBoard";
-import ChatBox from "./components/ChatBox";
+import ChatBox from "./components/chatbox";
 import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
