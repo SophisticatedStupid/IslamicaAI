@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "7860:7860"
+    environment:
+      - HFAPI=your_huggingface_key
+    volumes:
+      - ./backend:/app

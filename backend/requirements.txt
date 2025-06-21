@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+gtts
+openai
+scikit-learn
+nltk
+python-dotenv
+tqdm
+unidecode
+langdetect
