@@ -8,3 +8,11 @@ services:
       - HFAPI=your_huggingface_key
     volumes:
       - ./backend:/app
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app

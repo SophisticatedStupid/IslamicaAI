@@ -10,6 +10,10 @@ class ChatRequest(BaseModel):
     language: str = "English"
     tts_enabled: bool = False
 
+@app.get("/")
+def root():
+    return {"message": "IslamicaAI backend is running. Use /chat or /health."}
+
 @app.post("/chat")
 def chat_endpoint(req: ChatRequest):
     _, new_history = ask_ai(
